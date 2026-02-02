@@ -1,0 +1,43 @@
+.info-box {
+  padding: 1.25rem;
+  border-radius: 10px;
+  background: white;
+  border-left: 4px solid;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.info-box.descriptive {
+  border-left-color: #3b82f6;
+}
+
+.info-box.prescriptive {
+  border-left-color: #10b981;
+}
+
+.info-box-title {
+  margin: 0 0 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.info-box.descriptive .info-box-title {
+  color: #3b82f6;
+}
+
+.info-box.prescriptive .info-box-title {
+  color: #10b981;
+}
+
+.info-box-content {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #374151;
+}
+
+.info-box-content.empty {
+  color: #9ca3af;
+  font-style: italic;
+}

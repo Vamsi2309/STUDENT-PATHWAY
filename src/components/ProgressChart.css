@@ -1,0 +1,144 @@
+.progress-chart {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.chart-title {
+  margin: 0 0 1.25rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #374151;
+}
+
+.score-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.current-score-box,
+.predicted-score-box {
+  text-align: center;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  background: #f9fafb;
+}
+
+.predicted-score-box {
+  background: #f0fdf4;
+}
+
+.score-label {
+  display: block;
+  font-size: 0.75rem;
+  color: #fff6f0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.25rem;
+}
+
+.score-number {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #374151;
+}
+
+.predicted-score-box .score-number {
+  color: #059669;
+}
+
+.grade-badge {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.25rem 0.75rem;
+  background: #667eea;
+  color: white;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.grade-badge.predicted {
+  background: #10b981;
+}
+
+.score-arrow {
+  font-size: 1.5rem;
+  color: #9ca3af;
+}
+
+.progress-bar-container {
+  position: relative;
+  padding-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.grade-markers {
+  position: relative;
+  height: 1.5rem;
+}
+
+.grade-marker {
+  position: absolute;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.marker-line {
+  width: 2px;
+  height: 8px;
+  background: #d1d5db;
+}
+
+.marker-label {
+  font-size: 0.7rem;
+  color: #9ca3af;
+  font-weight: 500;
+}
+
+.progress-track {
+  position: relative;
+  height: 12px;
+  background: #e5e7eb;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  border-radius: 6px;
+  transition: width 0.8s ease;
+}
+
+.progress-fill.current {
+  left: 0;
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+}
+
+.progress-fill.predicted {
+  background: linear-gradient(90deg, rgba(16, 185, 129, 0.5) 0%, #10b981 100%);
+  border-left: 2px dashed #059669;
+}
+
+.grade-threshold-note {
+  padding: 1rem;
+  background: #fef3c7;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  color: #92400e;
+  line-height: 1.5;
+}
+
+.points-needed {
+  font-weight: 600;
+  color: #d97706;
+}
