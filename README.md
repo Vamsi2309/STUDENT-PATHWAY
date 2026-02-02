@@ -1,3 +1,6 @@
+# Hosted Site Public URL
+https://indus-student-dashboard.netlify.app/
+
 # Student Personalised Learning Pathway
 
 A React TypeScript application that visualizes student learning data across multiple subjects, showing performance metrics, progress tracking, and personalized recommendations.
