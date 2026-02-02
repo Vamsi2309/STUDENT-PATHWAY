@@ -1,4 +1,5 @@
 # Hosted Site Public URL
+Please access the following URL to view the website
 https://indus-student-dashboard.netlify.app/
 
 # Student Personalised Learning Pathway
